@@ -1,6 +1,7 @@
 
+
 body{
-  margin: 0;
+  color: #40514E;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
@@ -17,8 +18,7 @@ h2{
   font-size: 2.5rem;
   color: #c81912;
   font-weight: normal;
-
-
+  padding-bottom: 10px;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
@@ -26,43 +26,62 @@ h3{
 
 }
 
+p{
+  line-height: 1.5;
+}
+hr{
+  border: dotted black ;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
 .top-container{
   background: #ffde7d;
   position: relative;
   padding-top: 100px;
 }
 .middle-container{
-
+margin: 100px 0;
 }
 .bottom-container{
-
+background-color: #66bfbf;
+padding-top: 50px;
 }
 .skill-row{
   margin: 100px auto 100px auto;
   width: 50%;
   text-align: left;
-  line-height: 1.5;
+
 }
 .pro{
   text-decoration: underline;
+}
+.intro{
+  width: 40%;
+  margin:auto;
 }
 
 .top-cloud{
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud{
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
-.pasion1{
+.passion1{
+
   width: 200px;
   height: auto;
   background-color: black;
+}
+.chillies{
+  width: 200px;
+  height: auto;
 }
 
 .skill1{
@@ -74,4 +93,42 @@ h3{
   width: 20%;
   float: left;
   margin-right: 30px;
+}
+
+.contact-me{
+  background: yellow;
+  margin:20px;
+}
+.contact-message{
+width: 60%;
+height: 80px;
+margin: 0px auto 10px;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: 'Work Sans', sans-serif;
+  color: #222831;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 7px;
+  border-radius: auto;
+  border-width: auto;
+  border-color: #222831;
+  border-style: solid;
+  background-color: white;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #222831;
+  border-width: 2px;
+  border-color: #222831;
+  border-style: solid;
+}
+
+.btn:active {
+  top: 1px;
 }
